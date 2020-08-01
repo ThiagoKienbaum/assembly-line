@@ -19,6 +19,14 @@
     - Spring Boot
 * Code quality
     - JUnit
+    
+## Development setup
+
+```
+git clone https://github.com/ThiagoKienbaum/assembly-line.git 
+
+cd github-assembly-line
+```
 
 ## Meta
 
