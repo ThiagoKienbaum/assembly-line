@@ -23,7 +23,7 @@ This project is an assembly line controller, you can put the input.txt on the ro
 ```
 git clone https://github.com/ThiagoKienbaum/assembly-line.git 
 
-cd github-assembly-line
+cd assembly-line
 
 put a input.txt on the root (follow the input example)
 
