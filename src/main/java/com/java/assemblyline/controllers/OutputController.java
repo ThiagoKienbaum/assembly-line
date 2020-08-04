@@ -9,7 +9,7 @@ import java.util.Collections;
 public class OutputController {
     public static void writeOutput(String input) {
         try {
-            Path outputPath = Paths.get("./././././output.txt");
+            final Path outputPath = Paths.get("./././././output.txt");
             Files.write(outputPath, Collections.singleton(input), StandardCharsets.UTF_8);
 
         } catch (Exception error) {

@@ -7,8 +7,8 @@ import java.nio.file.Paths;
 public class InputController {
     public static String readInput() {
         try {
-            Path inputPath = Paths.get("./././././input.txt");
-            String input = new String(Files.readAllBytes(inputPath));
+            final Path inputPath = Paths.get("./././././input.txt");
+            final String input = new String(Files.readAllBytes(inputPath));
 
             return input;
 
