@@ -7,10 +7,10 @@ import java.nio.file.Paths;
 import java.util.Collections;
 
 public class OutputController {
-    public static void writeOutput(String input) {
+    public static void writeOutput(String output) {
         try {
             final Path outputPath = Paths.get("./././././output.txt");
-            Files.write(outputPath, Collections.singleton(input), StandardCharsets.UTF_8);
+            Files.write(outputPath, Collections.singleton(output), StandardCharsets.UTF_8);
 
         } catch (Exception error) {
             error.printStackTrace();
