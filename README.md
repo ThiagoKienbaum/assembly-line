@@ -12,13 +12,11 @@
 
 # Assembly Line
 
-> This project is a assembly line controller.
+This project is an assembly line controller, you can put the input.txt on the root of the project, it will be calculated and return how much assembly lines its needed to produce it, and it returns an output.txt on the same folder.
 
 ## Built with
 * Java
     - Spring Boot
-* Code quality
-    - JUnit
     
 ## Development setup
 
@@ -26,6 +24,10 @@
 git clone https://github.com/ThiagoKienbaum/assembly-line.git 
 
 cd github-assembly-line
+
+put a input.txt on the root (follow the input example)
+
+run Main.java (an output.txt will be created with the results)
 ```
 
 ## Meta
